@@ -1,0 +1,27 @@
+body {
+  background-color: #C8A063;
+  max-height: auto;
+  margin: auto;
+  height: auto;
+}
+.items1 { grid-area: header; }
+.items2 { grid-area: menu; }
+.items3 { grid-area: main; }
+.items4 { grid-area: footer; }
+
+.grid-container{
+  display: grid;
+  grid-gap: 10px;
+  background-color: #blue;
+  padding: 10px;
+  grid-template-areas:
+  'header'
+  'menu'
+  'main'
+  'footer';
+}
+.grid-container > div {
+  background-color: #FFD097;
+  text-align: center;
+  padding: 10px;
+}
