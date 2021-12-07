@@ -1,5 +1,5 @@
 body {
-  background-color: #C8A063;
+  background-color: #7E3737;
   max-height: auto;
   margin: auto;
   height: auto;
@@ -21,7 +21,7 @@ body {
   'footer';
 }
 .grid-container > div {
-  background-color: #FFD097;
+  background-color: #C8A063;
   text-align: center;
   padding: 10px;
 }
